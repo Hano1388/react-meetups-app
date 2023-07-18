@@ -7,18 +7,19 @@ import Layout from './components/Layout/Layout';
 function App() {
   return (
     <div>
-      <Layout />
-      <Switch>
-        <Route path="/" exact>
-          <AllMeetups />
-        </Route>
-        <Route path="/new">
-          <NewMeetup />
-        </Route>
-        <Route path="/favorites">
-          <Favorites />
-        </Route>
-      </Switch>
+      <Layout>
+        <Switch>
+          <Route path="/" exact>
+            <AllMeetups />
+          </Route>
+          <Route path="/new">
+            <NewMeetup />
+          </Route>
+          <Route path="/favorites">
+            <Favorites />
+          </Route>
+        </Switch>
+      </Layout>
     </div>
   );
 }
