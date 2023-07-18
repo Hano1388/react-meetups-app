@@ -4,7 +4,7 @@
 
 ```bash
     # clone the project
-    git clone <GIT-REPO-URL>
+    git clone git@github.com:Hano1388/react-meetups-app.git
     cd meetups
     npm start
 
